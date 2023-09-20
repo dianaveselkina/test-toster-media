@@ -8,92 +8,127 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <img class="header_text" src="img/OFFER.png" alt="text" />
     </header>
-    <logo>
+    <div class="logo">
       <img class="logo_text_img" src="img/logo.png" alt="logo" />
-    </logo>
+    </div>
     <banner>
       <div class="banner">
         <img class="banner_img" src="img/banner.png" alt="slippers" />
-        <div class="counter">counter</div>
-        <div class="price">price</div>
+        <div class="counter">
+          <span class="counter_text">Limited offer</span>
+          <div id="counter1" class="counter_animation"></div>
+        </div>
+        <div class="price">
+          <del class="full_cost"><span>R 250.00</span></del>
+          <span class="price_discount">R 160.00</span>
+        </div>
       </div>
     </banner>
-    <main>
+    <div class="main">
       <div class="trust">
         <span>Excellent 4.8/5</span>
         <img class="trust_text" src="img/trustpilot.png" alt="text" />
         <a href="#best selling">best selling</a>
       </div>
+      <p class="main_text">Orthopedic Slippers</p>
       <div class="main_img">
-        <img class="main-image_preview" src="img/black.png" alt="slippers" />
-        <a href="#">
-          <img
-            class="main-image_preview"
-            src="img/black.png"
-            alt="slippers"
-            width="80"
-            height="66"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="main-image_preview"
-            src="img/orange.png"
-            alt="slippers"
-            width="80"
-            height="66"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="main-image_preview"
-            src="img/pink.png"
-            alt="slippers"
-            width="80"
-            height="66"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="main-image_preview"
-            src="img/yellow.png"
-            alt="slippers"
-            width="80"
-            height="66"
-          />
-        </a>
+        <img
+          id="img"
+          class="main-image"
+          src="img/black.png"
+          alt="slippers"
+          width="352"
+          height="232"
+        />
+        <div class="main-img_preview">
+          <a href="#img">
+            <img
+              class="main-image_preview"
+              src="img/black.png"
+              alt="slippers"
+              width="80"
+              height="66"
+            />
+          </a>
+          <a href="#img">
+            <img
+              class="main-image_preview"
+              src="img/orange.png"
+              alt="slippers"
+              width="80"
+              height="66"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="main-image_preview"
+              src="img/pink.png"
+              alt="slippers"
+              width="80"
+              height="66"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="main-image_preview"
+              src="img/yellow.png"
+              alt="slippers"
+              width="80"
+              height="66"
+            />
+          </a>
+        </div>
       </div>
       <div class="main_info">
-        <img class="main-info_img" src="img/delivery.png" alt="text" />
-        <img class="main-info_img" src="img/stock.png" alt="text" />
-        <img class="main-info_img" src="img/stars.png" alt="stars" />
+        <img
+          class="main-info_img"
+          src="img/delivery.png"
+          alt="text"
+          width="313"
+        />
+        <img class="main-info_img" src="img/stock.png" alt="text" width="349" />
+        <img
+          class="main-info_img"
+          src="img/stars.png"
+          alt="stars"
+          width="124"
+        />
       </div>
       <div class="order">
-        <select name="color_slippers">
-          <option value="1">BLACK</option>
-          <option value="2">ORANGE</option>
-          <option value="3">PINK</option>
-          <option value="4">YELLOW</option>
-        </select>
-        <select name="size_slippers">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
+        <div class="order_color">
+          <span>color</span>
+          <select class="color_slippers">
+            <option value="1">BLACK</option>
+            <option value="2">ORANGE</option>
+            <option value="3">PINK</option>
+            <option value="4">YELLOW</option>
+          </select>
+        </div>
+        <div class="order_size">
+          <span>size</span>
+          <select class="size_slippers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
       </div>
-    </main>
+    </div>
     <footer>
-      <button class="footer_button">
-        <img
-          class="footer_button_img"
-          src="img/buy now.png"
-          alt="footer_button"
-        />
-      </button>
+      <form action="https://www.youtube.com/" target="_blank">
+        <button class="footer_button">
+          <img
+            class="footer_button_img"
+            src="img/buy now.png"
+            alt="footer_button"
+          />
+        </button>
+      </form>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
