@@ -11,4 +11,4 @@
 
 
 
-![scrin album](https://github.com/dianaveselkina/baby_album/assets/120037350/a12e859b-ffc2-44c8-a2b7-0b262376835e)
+![scrin album](https://github.com/dianaveselkina/test-toster-media/blob/main/cushion.png)
